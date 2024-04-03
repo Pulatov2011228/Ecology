@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.2588235294);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+header .header_flex {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+main .hero-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box1 h1 {
+  font-size: 65px;
+  font-weight: 300;
+}
+.box1 h1 .span1 {
+  color: darkgreen;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+.box1 h1 .span1 span {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  background-color: #ffc973;
+  bottom: 10px;
+  right: 0;
+  z-index: -1;
+}
+.box1 h1 .span2 {
+  color: chocolate;
+}
+.box1 p {
+  color: #909090;
+  font-size: 20px;
+  line-height: 25px;
+}
+.box1 .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.box1 .buttons .btn1 {
+  padding: 12px 30px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.box1 .buttons .btn2 {
+  padding: 12px 30px;
+  background-color: #fff;
+  color: #111;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.box2 .div1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 39px 17px rgba(34, 60, 80, 0.2);
+}
+.box2 .div1 p {
+  color: #909090;
+}
+.box2 .div2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
